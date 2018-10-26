@@ -1,0 +1,3 @@
+#!/bin/bash
+cp -r boilerplate ${1}
+chmod -R 755 ${1}

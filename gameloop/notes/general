@@ -1,0 +1,10 @@
+https://isaacsukin.com/news/2015/01/detailed-explanation-javascript-game-loops-and-timing
+
+mainLoop(){
+    doSomeThings()
+    requestAnimationFrame(mainLoop)
+}
+
+requestAnimationFrame(mainLoop)
+
+the problem with running update(delta) is that by the time the update method finishes, the timestamp is out of date
